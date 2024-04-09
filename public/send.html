@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Send</title>
+
+    <link rel="icon" href="bento.ico" />
+    <link rel="stylesheet" href="main.css" />
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1 class="bentobox">BentoBox</h1>
+      <hr />
+    </header>
+
+    <main>
+      <div>
+          <switch>
+            <foreignObject x="170" y="300" width="250" height="250">
+              <form method="post" onsubmit="sendMessage()" action="?">
+                <textarea xmlns="http://www.w3.org/1999/xhtml" class="send" name="message" rows="10" cols="25" placeholder="Compose message..."></textarea>
+                <br />
+                <button class="send" type="submit">Send</button>
+              </form>
+            </foreignObject>
+          </switch>
+          <img src="BentoBox.png" height="300px">
+      </div>
+
+      <button class="nav"><a class="nav" href="home.html">Home</a></button>
+
+    </main>
+
+    <footer>
+      <hr />
+      <span style="font-size: 2em;">Stanley Huang</span>
+      <a class="github" href="https://github.com/spencercheng/lover">GitHub</a>
+    </footer>
+    <script src="send.js"></script>
+  </body>
+</html>

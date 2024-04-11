@@ -30,3 +30,5 @@ dbconfig.json
 
 # Windows thumbnail cache files
 Thumbs.db
+
+*.pem

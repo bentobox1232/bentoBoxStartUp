@@ -3,7 +3,7 @@ async function sendMessage()
     event.preventDefault();
     // get message from elements
     var message = document.querySelector("form textarea.send").value;
-    var messageJson = { date: "October", message: message, from: "michael", time: "10 am"};
+    var messageJson = { date: "October", message: message, from: "Stanely", time: "10 am"};
     // post message to api
     const response = await fetch('/api/messages', {
         method: 'POST',
